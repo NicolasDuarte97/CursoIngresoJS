@@ -1,12 +1,14 @@
-/*
-Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
-function mostrar()
+
+// INCOMPLETO
+function mostrar()    
 {
-	var nombreIngresado;
-	nombreIngresado=txtIdNombre.value;
-	alert("ok");
+	 
+
+    var NombreAlumno = document.getElementById('txtIdNombre').value;
+	var EdadAlumno =  prompt("Ingrese su edad","Por ej 15");
+	
+	
+	alert(' Usted se llama ' + NombreAlumno  + ' y tiene ' +  EdadAlumno + ' años ' );
+	
 
 }
-
-
