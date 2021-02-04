@@ -34,8 +34,6 @@ function CentigradosFahrenheit ()
 
 	temperaturaF = (centígrados * 9/5) + 32;
 
-
-      // temperaturaF = (temperaturaF).toFixed(2);
 	         
 
 	alert( centígrados + ' Centigrados son  ' + temperaturaF  + ' Fahrenheit ' );
