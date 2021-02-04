@@ -4,7 +4,7 @@ function mostrar()
 {
 	 
 
-    var NombreAlumno = document.getElementById('txtIdNombre').value;
+    var NombreAlumno = document.getElementById('txtIdNombre').value;  //   html Id      //
 	var EdadAlumno =  prompt("Ingrese su edad","Por ej 15");
 	
 	

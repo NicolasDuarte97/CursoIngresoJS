@@ -7,8 +7,8 @@ function mostrar()
 	var Edad; 
 
 
-    Nombre = document.getElementById('txtIdNombre').value;
-    Edad =document.getElementById('txtIdEdad').value;
+    Nombre = document.getElementById('txtIdNombre').value; //   html Id      //
+    Edad =document.getElementById('txtIdEdad').value; //   html Id      //
 
 
 

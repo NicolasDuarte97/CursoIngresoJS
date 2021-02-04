@@ -5,7 +5,25 @@ C.	Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de c
 */
 
 function Rectangulo () 
-{
+{ 
+	var Largo;
+	var Hancho;
+	var Radio;
+
+	Largo = txtIdLargo.value;
+	Hancho = txtIdAncho.value;
+	Radio = txtIdRadio.value;
+
+	Largo = parseFloat(Largo);
+	Hancho = parseFloat(Hancho);
+	Radio = parseFloat(Radio);
+
+	Radio = largo * Hancho;
+
+	alert( ' Se debe alamabrar con: ' + Radio);
+
+
+
 
 }
 function Circulo () 
