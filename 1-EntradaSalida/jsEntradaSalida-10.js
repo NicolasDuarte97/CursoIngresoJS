@@ -12,13 +12,16 @@ function mostrarAumento()
 
 	Sueldo = txtIdImporte.value;
 
-	Sueldo = parseInt(importe);
+	Sueldo = parseInt(sueldo);
 
 
-     resultado = Sueldo - 25/100
+      // 1) Descuento = Sueldo * 25/100;
+      // 2) Descuento = Sueldo * 0.25;
+      // 3)resultado = sueldo - (sueldo * 0.25);
+
+     resultado = Sueldo * 0.75;
 
 
-	 txtIdResultado = resultado;
-
+	 txtIdResultado.value = resultado;
 
 }

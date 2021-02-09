@@ -1,3 +1,4 @@
+//Nicolas Duarte
 /*1.	Para el departamento de facturación:
 A.	Ingresar tres precios de productos y mostrar la suma de los mismos.
 B.	Ingresar tres precios de productos y mostrar el promedio de los mismos.
@@ -44,7 +45,7 @@ function Promedio ()
    Precio3 = parseFloat(Precio3);
 
 
-    promedio = Precio1 + Precio2 + Precio3 / 3;
+    promedio = (Precio1 + Precio2 + Precio3) / 3;
 
 
 
@@ -71,10 +72,11 @@ function PrecioFinal ()
    Precio3 = parseFloat(Precio3);
 
 
-    Final = Precio1 * Precio2 * Precio3 / 21*100;
+
+    Final = (Precio1 + Precio2 + Precio3) * 1.21;
 
 
 
-	alert(' El porcentaje final es de:  ' + Final);
+	alert(' El porcentaje final con el IVA es de:  ' + Final);
 
 }
